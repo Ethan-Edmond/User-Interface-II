@@ -26,7 +26,7 @@ body {
     box-sizing: border-box;
     max-width: 100%;
     /* Comment out when done debugging */
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 /* General Styles  */
@@ -41,7 +41,7 @@ body {
 header {
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 1.5%;
+    padding-bottom: 3%;
 }
 .title-container {
     padding: 1.5%;
@@ -94,7 +94,7 @@ header p {
 .top {
     width: 100%;
     height: 600px;
-    background-image: url("https://picsum.photos/300");
+    background-image: url("https://picsum.photos/600");
     background-size: cover;
     background-position: center;
 }
@@ -115,3 +115,28 @@ header p {
 
 /* Footer Styles */
 
+footer {
+    display:flex;
+    justify-content: center;
+    padding: 1.5%;
+    background: indianred;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    font-family: sans-serif;
+    width: 12%;
+    background-color: white;
+    height: 40px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    background-color: black;
+    color: white;
+}
