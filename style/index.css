@@ -26,7 +26,11 @@ body {
 * {
     box-sizing: border-box;
     max-width: 100%;
+    /* Comment out when done debugging */
     border: 1px solid grey;
 }
 
+h1 {
+    font-size: 5em;
+}
 
