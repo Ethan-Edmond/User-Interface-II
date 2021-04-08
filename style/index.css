@@ -180,7 +180,7 @@ footer div {
 .contact-info a:hover {
     color: white;
     background: black;
-    transition: 0.5s;
+    transition: 0.1s;
 }
 
 footer .button {
