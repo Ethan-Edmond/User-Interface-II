@@ -121,6 +121,7 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 30%;
 }
 
 .right-container .button {
@@ -132,19 +133,21 @@ header p {
 
 footer {
     display:flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding: 1.5%;
     background: indianred;
 }
 
 footer div {
-    width: 20%;
+    width: 19%;
 }
 .contact-info {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
+    margin-bottom: 1.5%;
 }
 
 .contact-info a {
