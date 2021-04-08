@@ -56,7 +56,7 @@ nav {
     justify-content: center;
 }
 
-nav a {
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,16 +66,18 @@ nav a {
     background-color: white;
     height: 40px;
     border: 1px solid black;
-    border-width: 1px 1px 1px 0px;
     text-decoration: none;
     color: black;
 }
 
-nav a:first-child {
+nav .button {
+    border-width: 1px 1px 1px 0px;
+}
+nav .button:first-child {
     border-width: 1px;
 }
 
-nav a:hover {
+.button:hover {
     background-color: black;
     color: white;
 }
@@ -87,6 +89,8 @@ header h2 {
 
 header p {
     font-size: 1.2em;
+    text-align: center;
+    line-height: 1.8;
 }
 
 /* Main Styles */
@@ -113,30 +117,41 @@ header p {
     padding: 10px;
 }
 
+.right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-container .button {
+    margin-top: 7%;
+    width: 50%;
+}
+
 /* Footer Styles */
 
 footer {
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     padding: 1.5%;
     background: indianred;
 }
 
-footer a {
+footer div {
+    width: 20%;
+}
+.contact-info {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.6em;
-    font-family: sans-serif;
-    width: 12%;
-    background-color: white;
-    height: 40px;
+    flex-direction: column;
     border: 1px solid black;
-    text-decoration: none;
-    color: black;
 }
 
-footer a:hover {
-    background-color: black;
-    color: white;
+.contact-info a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.6em;
+    line-height: 1.6;
+    background: white;
+    text-align: center;
 }
