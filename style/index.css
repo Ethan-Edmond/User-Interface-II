@@ -38,6 +38,11 @@ body {
 
 /* Header Styles */
 
+header {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 1.5%;
+}
 .title-container {
     padding: 1.5%;
 }
@@ -57,7 +62,7 @@ nav a {
     align-items: center;
     font-size: 1.6em;
     font-family: sans-serif;
-    width: 10%;
+    width: 12%;
     background-color: white;
     height: 40px;
     border: 1px solid black;
@@ -75,6 +80,14 @@ nav a:hover {
     color: white;
 }
 
+header h2 {
+    font-size: 4.8em;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2em;
+}
 /* Main Styles */
 
 /* Footer Styles */
