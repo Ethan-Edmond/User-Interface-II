@@ -69,6 +69,13 @@ nav {
     border: 1px solid black;
     text-decoration: none;
     color: black;
+    transition: 0.5s;
+}
+
+.button:hover {
+    color: white;
+    background: black;
+    transition: 0.5s;
 }
 
 nav .button {
@@ -78,10 +85,6 @@ nav .button:first-child {
     border-width: 1px;
 }
 
-.button:hover {
-    background-color: black;
-    color: white;
-}
 
 header h2 {
     font-size: 4.8em;
@@ -171,6 +174,13 @@ footer div {
     line-height: 1.6;
     background: white;
     text-align: center;
+    transition: 0.5s;
+}
+
+.contact-info a:hover {
+    color: white;
+    background: black;
+    transition: 0.5s;
 }
 
 footer .button {
@@ -182,6 +192,11 @@ footer .button {
     .button, footer .button{
         width: 12%;
         transition: 0.5s;
+    }
+
+    .button:hover {
+        background-color: black;
+        color: white;
     }
 
     .button:hover {
