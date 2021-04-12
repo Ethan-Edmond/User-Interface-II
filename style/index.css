@@ -237,5 +237,59 @@ footer div {
     }
 }
 @media(max-width: 500px){
-    
+    .button {
+        width: 100%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        width: 40%;
+        margin: 3% auto;
+    }
+    nav .button {
+        border-width: 0 1px 1px;
+    }
+    .button:hover {
+        width: 100%;
+    }
+
+    header h2, header p {
+        margin-bottom: 3%;
+    }
+    .top {
+        height: 40vh;
+    }
+    .top, .bottom {
+        margin: 0 5%;
+        width: 90%;
+    }
+    .bottom {
+        flex-direction: column;
+        padding-top: 3%;
+    }
+    .bottom .left-container {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .left-container .image-container {
+        padding: 0;
+        margin-bottom: 3%;
+        width: 48.2%;
+    }
+    .right-container {
+        width: 100%;
+        padding: 0 3% 3%;
+    }
+    .right-container .button {
+        display: none;
+    }
+    footer {
+        padding: 10% 0;
+    }
+    .contact-info {
+        display: none;
+    }
+    footer button:hover {
+        width: 50%;
+    }
 }
