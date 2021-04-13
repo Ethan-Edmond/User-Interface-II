@@ -75,9 +75,7 @@ button, .button {
 button:hover, .button:hover {
     color: white;
     background: black;
-    transition: 0.5s;
     width: 64%;
-    transition: 0.5s;
 }
 
 nav button {
@@ -152,7 +150,6 @@ img {
 }
 .right-container .button:hover {
     width: 100%;
-    transition: 0.5s;
 }
 
 /* Footer Styles */
@@ -187,7 +184,6 @@ footer {
 .contact-info a:hover {
     color: white;
     background: black;
-    transition: 0.1s;
 }
 
 footer button {
@@ -203,7 +199,6 @@ footer button:hover {
     background: black;
     color: white;
     width: 100%;
-    transition: 0.5s;
 }
 
 footer section {
